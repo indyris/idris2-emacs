@@ -1,0 +1,11 @@
+package emacs
+
+modules = Emacs
+
+depends = idris2, base
+
+sourcedir = "src/"
+
+builddir = "build"
+
+version = 0.0.1

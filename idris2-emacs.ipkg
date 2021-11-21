@@ -1,0 +1,14 @@
+package idris2-emacs
+
+modules = Compiler.Lisp.Emacs
+        , Compiler.Lisp.Emacs.Main
+
+depends = idris2, base, network
+
+sourcedir = "src/"
+
+builddir = "build"
+
+version = 0.0.1
+
+main = Compiler.Lisp.Emacs.Main
